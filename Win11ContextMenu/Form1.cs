@@ -21,7 +21,8 @@ namespace Win11ContextMenu
 
         private void buttonClassic_Click(object sender, EventArgs e)
         {
-            Registry.CurrentUser.CreateSubKey(CLASSIC_REG + @"\InprocServer32");
+            RegistryKey newKey = Registry.CurrentUser.CreateSubKey(CLASSIC_REG + @"\InprocServer32");
+            newKey.SetValue("", "", RegistryValueKind.String);
             MessageBox.Show("OK");
         }
         private void buttonDefault_Click(object sender, EventArgs e)
