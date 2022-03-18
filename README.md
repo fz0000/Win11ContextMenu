@@ -1,3 +1,5 @@
+[![.NET Core Desktop](https://github.com/fz0000/Win11ContextMenu/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/fz0000/Win11ContextMenu/actions/workflows/dotnet-desktop.yml)
+
 # Win11ContextMenu
 Change Win11 context menu to classic style
 
